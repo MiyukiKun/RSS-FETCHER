@@ -38,7 +38,7 @@ async def read_rss():
 
                 RssDB.add({"_id": aid})
             else:
-                break
+                pass
         await asyncio.sleep(900)
 
 
